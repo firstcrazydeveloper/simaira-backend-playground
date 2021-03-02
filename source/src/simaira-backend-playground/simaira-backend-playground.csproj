@@ -10,9 +10,7 @@
     <Folder Include="DataStructures\" />
     <Folder Include="DesignPatterns\Creational\" />
     <Folder Include="DesignPatterns\Behavioral\" />
-    <Folder Include="DesignPatterns\Structural\Composite\" />
     <Folder Include="Oops\" />
-    <Folder Include="UseCases\" />
   </ItemGroup>
 
 </Project>
