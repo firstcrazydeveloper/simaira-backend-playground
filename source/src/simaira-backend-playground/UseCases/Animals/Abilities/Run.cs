@@ -5,7 +5,7 @@
     {
         public override void Start()
         {
-            Console.WriteLine("Animal says: Now I'm running.");
+            Console.WriteLine(": Now I'm running.");
         }
 
         public override void Accept(AbilityVisitor visitor)
