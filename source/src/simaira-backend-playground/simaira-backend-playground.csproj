@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="DataStructures\SortingAlgorithm\MergeSortSection\" />
-    <Folder Include="DesignPatterns\Creational\" />
     <Folder Include="DesignPatterns\Behavioral\" />
     <Folder Include="Oops\" />
   </ItemGroup>
