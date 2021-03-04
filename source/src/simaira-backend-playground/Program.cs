@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using simaira_backend_playground.UseCases.Animals.Abilities;
 using simaira_backend_playground.UseCases.Animals.Classifications;
 using simaira_backend_playground.UseCases.Animals.Visitors;
@@ -21,7 +23,6 @@ namespace simaira_backend_playground
                     run.Start();
                 });
             #endregion
-
             Console.ReadLine();
         }
     }
