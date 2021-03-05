@@ -5,6 +5,7 @@
     using simaira_backend_playground.UseCases.Animals.Classifications;
     using simaira_backend_playground.UseCases.Animals.Environments;
 
+    // Object Composition & Visitor Patterns
     public class Animal
     {
         public string Name { get; private set; }
