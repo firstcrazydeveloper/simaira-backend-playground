@@ -31,6 +31,11 @@
                 tmp = array[min_key];
                 array[min_key] = array[j];
                 array[j] = tmp;
+
+                Console.Write("Iteration " + j.ToString() + ": ");
+                for (int k = 0; k < array.Count; k++)
+                    Console.Write(array[k] + " ");
+                Console.Write("\n");
             }
 
             return array;
