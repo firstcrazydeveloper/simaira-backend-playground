@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "simaira-backend-playground"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E1C7833B-C761-4F40-8A18-C73360585F46}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simaira.BlobStorage", "Simaira.BlobStorage\Simaira.BlobStorage.csproj", "{6C350D14-2626-4CD5-8EC4-FE30E6D96CCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{57091134-CBEB-410B-AE9B-EA77F4A81A1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57091134-CBEB-410B-AE9B-EA77F4A81A1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57091134-CBEB-410B-AE9B-EA77F4A81A1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C350D14-2626-4CD5-8EC4-FE30E6D96CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C350D14-2626-4CD5-8EC4-FE30E6D96CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C350D14-2626-4CD5-8EC4-FE30E6D96CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C350D14-2626-4CD5-8EC4-FE30E6D96CCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{57091134-CBEB-410B-AE9B-EA77F4A81A1B} = {E1C7833B-C761-4F40-8A18-C73360585F46}
+		{6C350D14-2626-4CD5-8EC4-FE30E6D96CCD} = {E1C7833B-C761-4F40-8A18-C73360585F46}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AB8360E6-93CE-4472-B2C2-70BFB045B754}
