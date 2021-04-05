@@ -16,7 +16,7 @@
         {
             _blobSasExpiryDuration = "120";
             _containerName = "simairadevdata";
-            _storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=simairadevplayground;AccountKey=6/warCo+JaYzqQIn6fTnNWAwnz4owKnuVQj2qxVyt5KII65bGu9XyIhruQvGZaBmrmYid5vaWz3pgbaaJvU09g==;EndpointSuffix=core.windows.net";
+            _storageConnectionString = "";
         }
 
         public async Task<string> StringUploadOnBlobStorageAsync(string fileName, string content)
