@@ -100,6 +100,11 @@ namespace simaira_backend_playground
             //        run.Start();
             //    });
             #endregion
+            
+        }
+
+        static void SortingScenario()
+        {
             Selection sort = new Selection();
             var array = sort.InitialiseArray();
             Console.Write("Unsorted Array ");

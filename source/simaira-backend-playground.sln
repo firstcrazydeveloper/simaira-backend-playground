@@ -7,7 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "simaira-backend-playground"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E1C7833B-C761-4F40-8A18-C73360585F46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simaira.BlobStorage", "Simaira.BlobStorage\Simaira.BlobStorage.csproj", "{6C350D14-2626-4CD5-8EC4-FE30E6D96CCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simaira.BlobStorage", "Simaira.BlobStorage\Simaira.BlobStorage.csproj", "{6C350D14-2626-4CD5-8EC4-FE30E6D96CCD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simaira.BlobStorage.Syncing", "src\Simaira.BlobStorage.Syncing\Simaira.BlobStorage.Syncing.csproj", "{20FFF271-7A05-4FDA-9B5C-F019BF7610D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simaira.SerialBlock.Encryption", "src\Simaira.SerialBlock.Encryption\Simaira.SerialBlock.Encryption.csproj", "{6D2952E6-2B3D-4F15-A6B5-45443D8E8391}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simaira.Backend.ProductManagement", "src\Simaira.Backend.ProductManagement\Simaira.Backend.ProductManagement.csproj", "{4AAF9373-8F31-44E8-AB94-91215BC60D56}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleBlobTrigger", "src\SampleBlobTrigger\SampleBlobTrigger.csproj", "{65BAA30E-33C9-45A2-8F94-48A8C5FAE152}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +31,22 @@ Global
 		{6C350D14-2626-4CD5-8EC4-FE30E6D96CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C350D14-2626-4CD5-8EC4-FE30E6D96CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C350D14-2626-4CD5-8EC4-FE30E6D96CCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20FFF271-7A05-4FDA-9B5C-F019BF7610D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20FFF271-7A05-4FDA-9B5C-F019BF7610D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20FFF271-7A05-4FDA-9B5C-F019BF7610D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20FFF271-7A05-4FDA-9B5C-F019BF7610D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D2952E6-2B3D-4F15-A6B5-45443D8E8391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D2952E6-2B3D-4F15-A6B5-45443D8E8391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D2952E6-2B3D-4F15-A6B5-45443D8E8391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D2952E6-2B3D-4F15-A6B5-45443D8E8391}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AAF9373-8F31-44E8-AB94-91215BC60D56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AAF9373-8F31-44E8-AB94-91215BC60D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AAF9373-8F31-44E8-AB94-91215BC60D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AAF9373-8F31-44E8-AB94-91215BC60D56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65BAA30E-33C9-45A2-8F94-48A8C5FAE152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65BAA30E-33C9-45A2-8F94-48A8C5FAE152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65BAA30E-33C9-45A2-8F94-48A8C5FAE152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65BAA30E-33C9-45A2-8F94-48A8C5FAE152}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +54,10 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{57091134-CBEB-410B-AE9B-EA77F4A81A1B} = {E1C7833B-C761-4F40-8A18-C73360585F46}
 		{6C350D14-2626-4CD5-8EC4-FE30E6D96CCD} = {E1C7833B-C761-4F40-8A18-C73360585F46}
+		{20FFF271-7A05-4FDA-9B5C-F019BF7610D9} = {E1C7833B-C761-4F40-8A18-C73360585F46}
+		{6D2952E6-2B3D-4F15-A6B5-45443D8E8391} = {E1C7833B-C761-4F40-8A18-C73360585F46}
+		{4AAF9373-8F31-44E8-AB94-91215BC60D56} = {E1C7833B-C761-4F40-8A18-C73360585F46}
+		{65BAA30E-33C9-45A2-8F94-48A8C5FAE152} = {E1C7833B-C761-4F40-8A18-C73360585F46}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AB8360E6-93CE-4472-B2C2-70BFB045B754}
